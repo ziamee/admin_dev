@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('https://storage.googleapis.com/cebuinsights-assets/2022/04/0cf0ad6e-terminals-in-cebu-10.webp');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: #30c4f6;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(16, 12, 12, 0.981);
+    width: 360px;
+    padding: 30px;
+    text-align: center;
+}
+
+.login-header {
+    margin-bottom: 25px;
+}
+
+.login-header h2 {
+    color: #151515;
+    margin-bottom: 8px;
+}
+
+.login-header p {
+    color: #0b0a0a;
+    font-size: 14px;
+}
+
+.admin-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #d5ef2e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.admin-icon i {
+    color: rgb(194, 233, 20);
+    font-size: 40px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    color: #090909;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #1a1a1a;
+    outline: none;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 8px;
+}
+
+button {
+    background-color: #139326;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ec1f1f;
+}
+
+.forgot-password {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.forgot-password a {
+    color: #242525;
+    text-decoration: none;
+}
+
+.error-message {
+    color: #e92918;
+    font-size: 13px;
+    margin-top: 20px;
+    display: none;
+}
+
+.success-message {
+    color: #0b0b0b;
+    font-size: 15px;
+    margin-top: 20px;
+    display: none;
+}
